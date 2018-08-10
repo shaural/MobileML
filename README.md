@@ -1,2 +1,2 @@
 # MobileML
-Mobile Machine Learning (Mammoth)
+Mobile Machine Learning
