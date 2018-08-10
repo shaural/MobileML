@@ -11,7 +11,7 @@ mnist_data = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 # y = mx + b
 # graph construction
-x_input = tf.placeholder(dftype=tf.float, shape=[None, 784], name='x_input')  # 28*28 = 784 (flattened array)
+x_input = tf.placeholder(dtype=tf.float32, shape=[None, 784], name='x_input')  # 28*28 = 784 (flattened array)
 W = tf.Variable(initial_value=tf.zeros(shape=[784, 10]), name='W')
 b = tf.Variable(initial_value=tf.zeros(shape=[10]), name='b')
 y_actual = tf.add(x=tf.matmul(a=x_input, b=W, name='matmul'), y=b, name='y_actual')
@@ -26,3 +26,18 @@ cross_entropy_loss = tf.reduce_mean(
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.5)  # low = longer training time, high = low accuracy
 
 train_step = optimizer.minimize(loss=cross_entropy_loss, name='train_step')
+
+session = tf.InteractiveSession()
+session.run(tf.global_variables_initializer())
+
+# training data
+for _ in range(1000):  # 1000 epochs, more accuracy -> increase number
+    batch = mnist_data.train.next_batch(100)
+    train_step.run(feed_dict={x_input: batch[0], y_expected: batch[1]})
+
+# testing the model
+correct_prediction = tf.equal(x=tf.argmax(y_actual, 1), y=tf.argmax(y_expected, 1))
+accuracy = tf.reduce_mean(tf.cast(x=correct_prediction, dtype=tf.float32))
+print(accuracy.eval(feed_dict={x_input: mnist_data.test.images, y_expected: mnist_data.test.labels}))
+
+print(session.run(fetches=y_actual, feed_dict={x_input: [mnist_data.test.images[0]]}))
