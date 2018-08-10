@@ -27,13 +27,22 @@ optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.5)  # low = longer
 
 train_step = optimizer.minimize(loss=cross_entropy_loss, name='train_step')
 
+saver = tf.train.Saver()
+
 session = tf.InteractiveSession()
 session.run(tf.global_variables_initializer())
+
+tf.train.write_graph(graph_or_graph_def=session.graph_def,
+                     logdir='.',
+                     name='mnist_model.pbtxt',
+                     as_text=False)
 
 # training data
 for _ in range(1000):  # 1000 epochs, more accuracy -> increase number
     batch = mnist_data.train.next_batch(100)
     train_step.run(feed_dict={x_input: batch[0], y_expected: batch[1]})
+
+saver.save(sess=session, save_path='./mnist_model.ckpt')
 
 # testing the model
 correct_prediction = tf.equal(x=tf.argmax(y_actual, 1), y=tf.argmax(y_expected, 1))
