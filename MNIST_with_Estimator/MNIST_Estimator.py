@@ -16,10 +16,31 @@ def model_fn(features, labels, mode):
     y = tf.add(tf.matmul(x, W), b)
 
     one_hot_labels = tf.one_hot(indices=tf.cast(labels, tf.int32), depth=10)
-    loss = tf.losses.softmax_cross_entropy(one_hot_labels=one_hot_labels, logits=y)
+    loss = tf.losses.softmax_cross_entropy(onehot_labels=one_hot_labels, logits=y)
 
-    optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.005)
-    train_step = optimizer.minimize(loss=loss, global_step=tf.train.get_global_step())
+    # training
+    if mode == tf.estimator.ModeKeys.TRAIN:
+        optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)
+        train_step = optimizer.minimize(loss=loss, global_step=tf.train.get_global_step())
+        return tf.estimator.EstimatorSpec(mode=mode, loss=loss, train_op=train_step)
 
-    return tf.estimator.EstimatorSpec(mode=mode, loss=loss, train_op=train_step)
+    # testing
+    eval_metric_ops = {'accuracy': tf.metrics.accuracy(labels=labels, predictions=tf.argmax(y, 1))}
+    return tf.estimator.EstimatorSpec(mode=mode, loss=loss, eval_metric_ops=eval_metric_ops)
 
+
+estimator = tf.estimator.Estimator(model_fn=model_fn)
+
+train_input_fn = tf.estimator.inputs.numpy_input_fn(x={'x': x_train},
+                                                    y=y_train,
+                                                    batch_size=100,
+                                                    num_epochs=None,
+                                                    shuffle=True)
+
+eval_input_fn = tf.estimator.inputs.numpy_input_fn(x={'x': x_eval},
+                                                   y=y_eval,
+                                                   num_epochs=1,
+                                                   shuffle=False)
+
+estimator.train(input_fn=train_input_fn, steps=20000)
+print(estimator.evaluate(input_fn=eval_input_fn))
