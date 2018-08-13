@@ -2,8 +2,14 @@
 Mobile Machine Learning
 
 Simple MNIST:
-  * Machine Learning model created using PyCharm with Tensorflow (basic linear regression)
-  * This is a simple digit prediction application for Android.
-  * Currect model accuracy is about 92% (which is further decreased because of the hand drawn image set used).
-  * The App will load the next Hand Drawn image, then convert it into a flattened array, and finally feed it into the ML model to make a prediction.
-  * Displays the 1st and 2nd choice in TextView.
+* Created Simple MNIST model using Tesnorflow in PyCharm
+* Accuracy: about 92%
+
+MNIST_with_Estimator:
+* Created MNIST model with an Estimator
+* Accuracy: About 92%
+
+MNIST_Android:
+* Project to use frozen model (used Simple MNIST) to predict digit
+* Loads an image of a digit, converst it to a bitmap, then a flattened array which it feeds to the Machine Learning Model
+* Prints the 1st and 2nd choice.
