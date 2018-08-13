@@ -2,10 +2,16 @@ package com.example.shaur.simple_mnist_android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import org.tensorflow.contrib.android.TensorFlowInferenceInterface;
 
 public class MainActivity extends AppCompatActivity {
+
+    ImageView imageView;
+    TextView textView;
 
     static {
         System.loadLibrary("tensorflow_inference");
@@ -21,8 +27,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        imageView = (ImageView) findViewById(R.id.image_view);
+        textView = (TextView) findViewById(R.id.text_view);
+
         inferenceInterface = new TensorFlowInferenceInterface();
         inferenceInterface.initializeTensorFlow(getAssets(), MODEL_FILE);
-        
+    }
+
+    public void predictDigitClick(View view) {
+
+    }
+    public void loadNextImageClick(View view) {
+
     }
 }
