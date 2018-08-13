@@ -1,5 +1,7 @@
 package com.example.shaur.simple_mnist_android;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -54,8 +56,23 @@ public class MainActivity extends AppCompatActivity {
 
     // BTN on clicks
     public void predictDigitClick(View view) {
-
+        float[] pixelBuf = convertImage();
     }
+
+    private float[] convertImage() {
+        Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(),
+                imageIDList[imageListIndex]);
+        imageBitmap = Bitmap.createScaledBitmap(imageBitmap, 28, 28, true);
+        imageView.setImageBitmap(imageBitmap);
+        int[] imageAsIntArr = new int[784];
+        float[] imageAsFloatArr = new float[784];
+        imageBitmap.getPixels(imageAsIntArr, 0,28, 0,0,28,28);
+        for (int i = 0; i < 784; i++) {
+            imageAsFloatArr[i] = imageAsIntArr[i] / -16777216; // convert to value between 0 and 1
+        }
+        return imageAsFloatArr;
+    }
+
     public void loadNextImageClick(View view) {
         // roll over after 9, else +1
         imageListIndex = (imageListIndex >= 9) ? 0 : imageListIndex + 1;
