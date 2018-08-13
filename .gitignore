@@ -1,3 +1,6 @@
-SimpleMNIST/pycharm/.idea/
-SimpleMNIST/pycharm/MNIST_data/
-SimpleMNIST/pycharm/venv/
+SimpleMNIST/.idea/
+SimpleMNIST/MNIST_data/
+SimpleMNIST/venv/
+MNIST_with_Estimator/.idea/
+MNIST_with_Estimator/MNIST_data/
+MNIST_with_Estimator/venv/
