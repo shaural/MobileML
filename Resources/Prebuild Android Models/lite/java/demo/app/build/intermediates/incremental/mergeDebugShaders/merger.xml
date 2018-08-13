@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/debug/shaders"/></dataSet></merger>

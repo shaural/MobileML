@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/examples/tensorflow_for_android/tensorflow/examples/android/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/examples/tensorflow_for_android/tensorflow/examples/android/build-types/debug/shaders"/></dataSet></merger>

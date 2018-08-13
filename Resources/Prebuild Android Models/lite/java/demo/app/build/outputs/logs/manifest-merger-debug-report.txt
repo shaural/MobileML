@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+MERGED from [com.android.support:design:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/66aebd82594e2a572ce29ad18250bab1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/10d189e8ef69993f8ac790bb682dc322/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/owl/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9def6d5e140581cd3c7f5bb019c42544/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/8efd688c98da9464ce0658ffa88fa86e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/1bae8f91d88a9c488c667cdea44a9bcf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/2fae8366bddebbcec5c6e6686323ff02/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/7153418f544bb589971248108b62fbfd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/5b51a308485a1bc8c22e88c2c0aa5bc3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/a4b8131871bf2dfd6551958fe8fbe1e9/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/84599841e96dafab7ef36ddc73f79e06/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/bda0d5b088521d37adcf9516a476ecdb/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/08e97c08ad1372d213bc8d4859b39db0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/656f462d8a385d0558b9b090c53757e4/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a0243e70ca1c1ecc5aeca66231c79322/AndroidManifest.xml:17:1-27:12
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] /Users/owl/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-0.1.1.aar/8cf5ffa41de1c90f6e9630a264cf0fe8/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+	package
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:19:5-51
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:1-42:12
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:24:19-67
+uses-sdk
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:5-44
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:5-44
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:5-44
+MERGED from [com.android.support:design:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/66aebd82594e2a572ce29ad18250bab1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/66aebd82594e2a572ce29ad18250bab1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/10d189e8ef69993f8ac790bb682dc322/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/10d189e8ef69993f8ac790bb682dc322/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/owl/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9def6d5e140581cd3c7f5bb019c42544/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/owl/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9def6d5e140581cd3c7f5bb019c42544/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/8efd688c98da9464ce0658ffa88fa86e/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/8efd688c98da9464ce0658ffa88fa86e/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/1bae8f91d88a9c488c667cdea44a9bcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/1bae8f91d88a9c488c667cdea44a9bcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/2fae8366bddebbcec5c6e6686323ff02/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/2fae8366bddebbcec5c6e6686323ff02/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/7153418f544bb589971248108b62fbfd/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/7153418f544bb589971248108b62fbfd/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/5b51a308485a1bc8c22e88c2c0aa5bc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/5b51a308485a1bc8c22e88c2c0aa5bc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/a4b8131871bf2dfd6551958fe8fbe1e9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/a4b8131871bf2dfd6551958fe8fbe1e9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/84599841e96dafab7ef36ddc73f79e06/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/84599841e96dafab7ef36ddc73f79e06/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/bda0d5b088521d37adcf9516a476ecdb/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/bda0d5b088521d37adcf9516a476ecdb/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/08e97c08ad1372d213bc8d4859b39db0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/08e97c08ad1372d213bc8d4859b39db0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/656f462d8a385d0558b9b090c53757e4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/656f462d8a385d0558b9b090c53757e4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a0243e70ca1c1ecc5aeca66231c79322/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a0243e70ca1c1ecc5aeca66231c79322/AndroidManifest.xml:21:5-23:58
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] /Users/owl/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-0.1.1.aar/8cf5ffa41de1c90f6e9630a264cf0fe8/AndroidManifest.xml:4:4-45
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] /Users/owl/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-0.1.1.aar/8cf5ffa41de1c90f6e9630a264cf0fe8/AndroidManifest.xml:4:4-45
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:5-44
+INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/66aebd82594e2a572ce29ad18250bab1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:5-44
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:15-41
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+		MERGED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:26:15-41
+		INJECTED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:28:5-40:19
+MERGED from [com.android.support:design:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/66aebd82594e2a572ce29ad18250bab1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/66aebd82594e2a572ce29ad18250bab1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/10d189e8ef69993f8ac790bb682dc322/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/10d189e8ef69993f8ac790bb682dc322/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/owl/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9def6d5e140581cd3c7f5bb019c42544/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/owl/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9def6d5e140581cd3c7f5bb019c42544/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v13:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/8efd688c98da9464ce0658ffa88fa86e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v13:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/8efd688c98da9464ce0658ffa88fa86e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/1bae8f91d88a9c488c667cdea44a9bcf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/1bae8f91d88a9c488c667cdea44a9bcf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/2fae8366bddebbcec5c6e6686323ff02/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/2fae8366bddebbcec5c6e6686323ff02/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/5b51a308485a1bc8c22e88c2c0aa5bc3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/5b51a308485a1bc8c22e88c2c0aa5bc3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/a4b8131871bf2dfd6551958fe8fbe1e9/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/a4b8131871bf2dfd6551958fe8fbe1e9/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/84599841e96dafab7ef36ddc73f79e06/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/84599841e96dafab7ef36ddc73f79e06/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/bda0d5b088521d37adcf9516a476ecdb/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/bda0d5b088521d37adcf9516a476ecdb/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/08e97c08ad1372d213bc8d4859b39db0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/08e97c08ad1372d213bc8d4859b39db0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/656f462d8a385d0558b9b090c53757e4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/656f462d8a385d0558b9b090c53757e4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a0243e70ca1c1ecc5aeca66231c79322/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/owl/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/a0243e70ca1c1ecc5aeca66231c79322/AndroidManifest.xml:25:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] /Users/owl/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-0.1.1.aar/8cf5ffa41de1c90f6e9630a264cf0fe8/AndroidManifest.xml:4:45-5:18
+MERGED from [org.tensorflow:tensorflow-lite:0.1.1] /Users/owl/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-0.1.1.aar/8cf5ffa41de1c90f6e9630a264cf0fe8/AndroidManifest.xml:4:45-5:18
+	android:label
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:28:18-44
+	android:theme
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:31:9-45
+activity#com.example.android.tflitecamerademo.CameraActivity
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:33:9-39:20
+	android:label
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:34:19-51
+	android:name
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:33:19-85
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/src/main/AndroidManifest.xml:37:27-74

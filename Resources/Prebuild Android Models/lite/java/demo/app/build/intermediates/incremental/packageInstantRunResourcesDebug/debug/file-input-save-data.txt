@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Mon Mar 05 15:59:00 PST 2018
+1.base=/Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/build/intermediates/assets/debug
+2.path=mobilenet_quant_v1_224.tflite
+0.baseType=DIRECTORY
+2.base=/Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/build/intermediates/assets/debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=BUILD
+0.set=ASSET
+0.base=/Users/owl/Desktop/Recordings/Mobile_Machine_Learning_Kickstarter/Resources/Prebuild Android Models/lite/java/demo/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=labels.txt
