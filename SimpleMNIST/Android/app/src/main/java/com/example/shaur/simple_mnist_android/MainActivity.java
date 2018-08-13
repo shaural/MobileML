@@ -4,6 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -57,8 +58,43 @@ public class MainActivity extends AppCompatActivity {
     // BTN on clicks
     public void predictDigitClick(View view) {
         float[] pixelBuf = convertImage();
+        float[] results = formPrediction(pixelBuf);
+//        for (float result : results) {
+//            Log.d("result", String.valueOf(result));
+//        }
+        printResults(results);
     }
 
+    private void printResults(float[] results) {
+        float max = 0;
+        float max2 = 0;
+        int maxIndex = 0;
+        int max2Index = 0;
+        for (int i = 0; i < 10; i++) {
+            if(results[i] > max){
+                max2 = max;
+                max2Index = maxIndex;
+                max = results[i];
+                maxIndex = i;
+            } else if (results[i] < max && results[i] > max2) {
+                max2 = results[i];
+                max2Index = i;
+            }
+        }
+        String output = "Model predict: " + String.valueOf(maxIndex) +
+                ", Second choice: " + String.valueOf(max2Index);
+        textView.setText(output);
+    }
+
+    private float[] formPrediction(float[] pixelBuffer) {
+        inferenceInterface.fillNodeFloat(INPUT_NODE, INPUT_SHAPE, pixelBuffer);
+        inferenceInterface.runInference(new String[] {OUTPUT_NODE});
+        float[] results = {0,0,0,0,0,0,0,0,0,0};
+        inferenceInterface.readNodeFloat(OUTPUT_NODE, results);
+        return results;
+    }
+
+    // function to convert displayed image to float array to then feed into model
     private float[] convertImage() {
         Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(),
                 imageIDList[imageListIndex]);
@@ -68,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         float[] imageAsFloatArr = new float[784];
         imageBitmap.getPixels(imageAsIntArr, 0,28, 0,0,28,28);
         for (int i = 0; i < 784; i++) {
-            imageAsFloatArr[i] = imageAsIntArr[i] / -16777216; // convert to value between 0 and 1
+            imageAsFloatArr[i] = imageAsIntArr[i] / (-16777216); // convert to value between 0 and 1
         }
         return imageAsFloatArr;
     }
