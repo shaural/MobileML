@@ -15,21 +15,21 @@ def decode_json_response(json_data):
     close_prices = []
     highs = []
     lows = []
-    volums = []
+    volumes = []
     results = json_data.get('results')
     for result in results:
         open_prices.append(result.get('open'))
         close_prices.append(result.get('close'))
-        highs.append(result.get('highs'))
+        highs.append(result.get('high'))
         lows.append(result.get('low'))
-        volums.append(result.get('volume'))
-    return open_prices, close_prices, highs, lows, volums
+        volumes.append(result.get('volume'))
+    return open_prices, close_prices, highs, lows, volumes
 
 
 def calculate_diffs(input_array):
     diffs = []
     for i in range(len(input_array) - 1):
-        diff = input_array[i+1] - input_array[i]
+        diff = input_array[i + 1] - input_array[i]
         if diff >= 0:
             diffs.append(1)
         else:
@@ -40,7 +40,7 @@ def calculate_diffs(input_array):
 def calc_price_diff(open_prices, close_prices):
     price_diffs = []
     for i in range(len(open_prices) - 1):
-        diff = open_prices[i+1] - close_prices[i]
+        diff = open_prices[i + 1] - close_prices[i]
         if diff >= 0:
             price_diffs.append([1, 0])
         else:
@@ -62,6 +62,6 @@ def build_data_subsets(stock_symbol, start_date, end_date):
 
     final_data = []
     for i in range(len(open_diffs)):
-        final_data.append([open_diffs, close_diffs, high_diffs, low_diffs, volume_diffs])
+        final_data.append([open_diffs[i], close_diffs[i], high_diffs[i], low_diffs[i], volume_diffs[i]])
 
     return final_data, labels
